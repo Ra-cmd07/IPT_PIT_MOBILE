@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Kitchen Queue Mobile",
+    "slug": "kitchen-queue-mobile",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "updates": {
+      "enabled": false,
+      "checkAutomatically": "OFF",
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "scheme": "exp",
+    "plugins": [],
+    "android": {
+      "permissions": [],
+      "usesCleartextTraffic": true
+    },
+    "extra": {
+      "apiBase": "http://10.0.2.2:8000/api",
+      "eas": {
+        "projectId": "kitchen-queue-mobile"
+      }
+    }
+  }
+}
